@@ -34,7 +34,7 @@ The bitrate **MAY** also be changed programmatically by adjusting `PROP_UART_BIT
 
 (TODO: Define PROP_UART_BITRATE)
 
-### HDLC-Lite {#hdlc-lite}
+### HDLC-Lite
 
 *HDLC-Lite* is the recommended framing protocol for transmitting Spinel frames over a UART. HDLC-Lite consists of only the framing, escaping, and CRC parts of the larger HDLC protocol---all other parts of HDLC are omitted. This protocol was chosen because it works well with software flow control and is widely implemented.
 
